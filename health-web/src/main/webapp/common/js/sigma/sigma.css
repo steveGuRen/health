@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+
+.cocosLoading {
+	position: relative;
+	margin: auto;
+	padding: 0;
+	top: 50%;
+	left: 50%;
+	z-index: 999;
+}
+
+.cocosLoading li .ball {
+	transform: scale(0);
+	-moz-transform: scale(0);
+	-webkit-transform: scale(0);
+	animation: showDot 1s linear forwards;
+	-moz-animation: showDot 1s linear forwards;
+	-webkit-animation: showDot 1s linear forwards;
+}
